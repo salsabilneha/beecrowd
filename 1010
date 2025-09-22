@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int u1,u2,p1,p2;
+float m1,m2,M;
+scanf("%d%d%f",&p1,&u1,&m1);
+scanf("%d%d%f",&p2,&u2,&m2);
+M=(m1*u1)+(m2*u2);
+printf("VALOR A PAGAR: R$ %.2f\n",M);
+return 0;
+}
