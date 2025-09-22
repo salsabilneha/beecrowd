@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+char name;
+double salary,value,TOTAL;
+scanf("%S",&name);
+scanf("%lf%lf",&salary,&value);
+TOTAL=salary+(.15*value);
+printf("TOTAL = R$ %.2lf\n",TOTAL);
+return 0;
+}
