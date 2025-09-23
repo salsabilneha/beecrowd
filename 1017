@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+  int t,s;
+  double a;
+  scanf("%d%d",&t,&s);
+  a=(t*s)/12.0;
+  printf("%.3f\n",a);
+  return 0;
+}
+
