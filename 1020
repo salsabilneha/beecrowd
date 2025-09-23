@@ -1,0 +1,13 @@
+#include <stdio.h>
+ int main()
+{
+  int N,y,m,d,remainder;
+ scanf("%d",&N);
+  y=N/365;
+remainder=N%365;
+ m=remainder/30;
+ d=remainder%30;
+  printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n",y,m,d);
+  return 0;
+}
+
